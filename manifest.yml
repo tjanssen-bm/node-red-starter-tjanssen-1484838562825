@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-red-starter-tjanssen
+  host: node-red-starter-tjanssen
+  disk_quota: 1024M
+  services:
+  - node-red-starter-tjanssen-cloudantNoSQLDB
+  - Language Translator-5g
+  - Conversation-2k
+  - Visual Recognition-go
